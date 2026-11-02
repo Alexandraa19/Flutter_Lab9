@@ -1,17 +1,24 @@
-# slot_machine_perehrest
+# Лабораторная работа №9. Flutter: слот-машина
 
-A new Flutter project.
+ Перехрест Саша группы исп-242
+02.11.26
 
-## Getting Started
+## Что изучили:
+1. разницу между StatelessWidget и StatefulWidget, и зачем нужно хранить состояние
+2. как обновлять интерфейс при помощи setState()
+3. как подключать локальные картинки через pubspec.yaml и папку assets
+4. как писать асинхронный код (async/await, Future.delayed) и делать задержки
 
-This project is a starting point for a Flutter application.
+## Скриншот финального приложения:
+![скрин](img/step4_perehrest.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Инструкция по запуску:
+1. склонировать репозиторий:
+   `git clone https://github.com/Alexandraa19/Flutter_Lab9.git`
+2. Перейдите в папку с проектом:
+   `cd slot_machine_perehrest`
+3. необходимые зависимости:
+   `flutter pub get`
+4. запустить проект в браузере Chrome:
+   `flutter run -d chrome`
