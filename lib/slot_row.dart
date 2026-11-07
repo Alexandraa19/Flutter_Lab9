@@ -26,6 +26,6 @@ class SlotRow extends StatelessWidget {
           Image.asset(slot3, width: 100, height: 100),
         ],
       ),
-    ); 
+    );
   }
 }
